@@ -21,7 +21,7 @@ public class BigIntegerFactorialExample {
 
 		System.out.println(f1); //For large n values, wrong values of factorial will be printed.  
 
-		//Using BigInteger class for representing very numbers. This class can be AS BIG AS NEEDED.  
+		//Using BigInteger class for representing very large numbers. This class can be AS BIG AS NEEDED.  
 		BigInteger f2 = new BigInteger("1"); //Need to use String as representation of int. 
 
 		for (int i = 2; i <= n; i++) {
